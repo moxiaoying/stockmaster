@@ -1,0 +1,59 @@
+package com.stock.master.api.response;
+
+public class GetAssetsResponse {
+
+    /**
+     * 总资产
+     */
+    private String Zzc;
+    /**
+     * 可用资金
+     */
+    private String Kyzj;
+    /**
+     * 可取资金
+     */
+    private String Kqzj;
+    /**
+     * 冻结资金
+     */
+    private String Djzj;
+
+    public String getZzc() {
+        return Zzc;
+    }
+
+    public void setZzc(String zzc) {
+        Zzc = zzc;
+    }
+
+    public String getKyzj() {
+        return Kyzj;
+    }
+
+    public void setKyzj(String kyzj) {
+        Kyzj = kyzj;
+    }
+
+    public String getKqzj() {
+        return Kqzj;
+    }
+
+    public void setKqzj(String kqzj) {
+        Kqzj = kqzj;
+    }
+
+    public String getDjzj() {
+        return Djzj;
+    }
+
+    public void setDjzj(String djzj) {
+        Djzj = djzj;
+    }
+
+    @Override
+    public String toString() {
+        return "GetAssetsResponse [Zzc=" + Zzc + ", Kyzj=" + Kyzj + ", Kqzj=" + Kqzj + ", Djzj=" + Djzj + "]";
+    }
+
+}

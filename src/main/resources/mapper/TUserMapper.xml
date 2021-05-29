@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stock.master.mapper.TUserMapper">
+  <resultMap id="BaseResultMap" type="com.stock.master.pojo.TUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="pass_word" jdbcType="VARCHAR" property="passWord" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="birthday" jdbcType="TIMESTAMP" property="birthday" />
+  </resultMap>
+</mapper>

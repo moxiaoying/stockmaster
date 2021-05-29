@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="wild">
+  <meta name="description" content="" />
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>stock</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/static/css/common.css}">
+  <link rel="stylesheet" type="text/css" th:href="@{/static/css/index.css}">
+
+  <script type="text/javascript" th:src="@{/static/js/lib/jquery/3.2.1/jquery.js}"></script>
+  <script type="text/javascript" th:src="@{/static/js/util/common.js}"></script>
+  <script type="text/javascript" th:src="@{/static/js/util/consts.js}"></script>
+  <script type="text/javascript" th:src="@{/static/js/util/frame.js}"></script>
+  <script type="text/javascript" th:src="@{/static/js/modules/index.js}"></script>
+
+</head>
+
+<body>
+  <div id="head" class="head"></div>
+
+  <div class="container">
+    <div class="innerBox">
+      <a th:href="@{/system/index}">系统管理</a>
+      <a th:href="@{/trade/index}">交易管理</a>
+      <a th:href="@{/report/index}">报表管理</a>
+      <a th:href="@{/report/index}">报表管理</a>
+    </div>
+  </div>
+
+  <div id="foot" class="foot"></div>
+
+</body>
+
+</html>
